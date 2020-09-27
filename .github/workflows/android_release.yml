@@ -15,7 +15,7 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           flutter-version: '1.9.1+hotfix.6'
-      - run: flutter pub get
+#      g
       - run: flutter build apk -t lib/main.dart --split-per-abi
       - name: Release apk
         uses: ncipollo/release-action@v1
